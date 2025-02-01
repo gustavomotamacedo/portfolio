@@ -13,6 +13,8 @@
 
     &__list {
         font-size: 1rem;
+        list-style-type: '|  ';
+        list-style-position: inside;
         font-weight: 400;
         & > li {margin-bottom: .3rem;}
     }
