@@ -1,11 +1,14 @@
 <section class="skills">
     <h1 id="conhecimentos" class="skills__title">Conhecimentos</h1>
     <section class="skills__list">
-            <app-skill-card />
-            <app-skill-card />
-            <app-skill-card />
-            <app-skill-card />
-            <app-skill-card />
-            <app-skill-card />
+            <app-skill-card
+                skillTitle="Linguagens de Programação"
+                [skillList]="['a', 'b', 'c', 'd']" />
+            <app-skill-card
+                skillTitle="Bancos de dados"
+                [skillList]="['SQL', 'MySQL', 'SQL Server', 'Mongo DB']" />
+            <app-skill-card
+                skillTitle="Infraestrutura e DevOps"
+                [skillList]="['Google Firebase', 'REST API']" />
     </section>
 </section>
