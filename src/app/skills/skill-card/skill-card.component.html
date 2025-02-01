@@ -1,0 +1,10 @@
+<section class="skill-card">
+    <h1 class="skill-card__title">
+        {{skillTitle}}
+    </h1>
+    <ul class="skill-card__list">
+        @for (skill of skillList; track $index) {
+            <li class="skill-card__list-item">{{skill}}</li>
+        }
+    </ul>
+</section>
