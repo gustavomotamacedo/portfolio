@@ -1,6 +1,6 @@
 .skills {
     width: 100%;
-    height: calc(100vh - 5rem);
+    min-height: calc(100vh - 5rem);
 
     &__title {
         font-size: 3rem;
@@ -12,8 +12,9 @@
         margin-top: 2rem;
         display: grid;
         grid-template-columns: auto auto;
-        align-items: center;
-        justify-content: space-evenly;
+        align-items: start;
+        justify-content: center;
+        column-gap: 3rem;
         row-gap: 1rem;
     }
 }

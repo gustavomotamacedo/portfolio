@@ -9,6 +9,7 @@
 
         &__text {
             width: 40vw;
+            height: 50%;
             text-align: justify;
             align-self: center; 
             margin: 0 8rem;
@@ -31,6 +32,8 @@
         }
 
         &__svg-container {
+            height: 50%;
+            width: 100%;
         .svg-top {
             position: absolute;
             top: 12rem;
