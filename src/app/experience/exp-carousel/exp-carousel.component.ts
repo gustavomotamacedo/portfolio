@@ -1,8 +1,9 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { ExpCardComponent } from "../exp-card/exp-card.component";
 
 @Component({
   selector: 'app-exp-carousel',
-  imports: [],
+  imports: [ExpCardComponent],
   templateUrl: './exp-carousel.component.html',
   styleUrl: './exp-carousel.component.scss'
 })

@@ -1,0 +1,10 @@
+.experience {
+    width: 100%;
+    min-height: calc(100vh - 5rem);
+
+    &__title {
+        font-size: 3rem;
+        font-weight: 300;
+        text-align: center;
+    }
+}

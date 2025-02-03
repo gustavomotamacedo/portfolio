@@ -1,1 +1,30 @@
-<p>exp-carousel works!</p>
+<section class="carousel">
+    <app-exp-card id="card-1"
+        title="Universidade Cidade de São Paulo"
+        function="Palestrante voluntário"
+        time="2024"
+        description="Ministrei aulas sobre programação na área da robótica, interagindo com diversos alunos de ensino médio (no Mochilão 2024) e superior (na WECTI 2024)."
+        imgPath="assets\images\palestrante.png"
+     />
+    <app-exp-card id="card-2"
+        title="Santander Universidades"
+        function="Aprendiz"
+        time="2023"
+        description="Nesse período desenvolvi projetos fullstack utilizando Angular e Spring Framework para o Santander Bootcamp 2023 - Fullstack Java+Angular, adquirindo conhecimento na área de desenvolvimento back-end e uma carga horária de 115 horas."
+        imgPath="assets\images\santander_certificado.png"
+    />
+    <app-exp-card id="card-3"
+        title="Universidade Cidade de São Paulo"
+        function="Projeto Voluntário"
+        time="2024"
+        description="Nesse projeto auxiliei no desenvolvimento de uma aplicação android para controle de presença, no qual a presença de mais de 2000 alunos pôde ser inspecionada, o que gerou redução de tempo e custo para o controle de entrada e saída."
+        imgPath="assets\images\inout.png"
+     />
+
+     <nav class="carousel__navigator">
+         <a href="#card-1" class="carousel__navgation-link">1</a>
+         <a href="#card-2" class="carousel__navgation-link">2</a>
+         <a href="#card-3" class="carousel__navgation-link">3</a>
+     </nav>
+
+</section>
