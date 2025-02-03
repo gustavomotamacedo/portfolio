@@ -7,5 +7,22 @@ import { Component } from '@angular/core';
   styleUrl: './nav-bar.component.scss'
 })
 export class NavBarComponent {
+  isMenuOpen: boolean;
 
+  constructor() {
+    if (window.innerWidth < 992) {
+      this.isMenuOpen = false;
+    } else {
+      this.isMenuOpen = true;
+    }
+  }
+
+  toggleMenu(): void {
+    if (window.innerWidth < 992) {
+      this.isMenuOpen = !this.isMenuOpen;
+      console.log('Menu is open:', this.isMenuOpen);
+    } else {
+      this.isMenuOpen = true;
+    }
+  }
 }
