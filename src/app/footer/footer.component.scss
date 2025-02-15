@@ -9,10 +9,11 @@
     .contacts {
         height: 100%;
         display: grid;  
-        grid-template-columns: auto auto;
+        grid-template-columns: 1fr 1fr;
         place-items: center center;
         align-items: center;
-        text-align: center;
+        text-align: left;
+        list-style-image: none;
 
         &__link {
             color: #F9FFE5;
