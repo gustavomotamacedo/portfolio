@@ -49,7 +49,6 @@
   @media screen and (min-width: 768px) {
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
-    -webkit-overflow-scrolling: touch;
     &::-webkit-scrollbar {
       width: 30px;
     }
