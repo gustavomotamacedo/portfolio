@@ -23,16 +23,19 @@
             font-size: 3.5rem;
             font-weight: bold;
             text-align: left;
+            margin-bottom: .8rem;
         }
 
         &__skills {
             font-size: 1rem;
             font-weight: 300;
+            margin-bottom: .8rem;
         }
 
         &__abstract {
             font-size: 1.4rem;
             font-weight: normal;
+            margin-top: .8rem;
         }
         &__svg-container {
             flex: 1;
